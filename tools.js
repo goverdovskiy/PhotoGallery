@@ -93,7 +93,7 @@
                 });
             };
         },
-        writeEnd: function(res, code, heders, content) {
+        writeEnd: function(res, code, headers, content) {
             res.writeHead(code, headers);
             res.end(content);
         },
